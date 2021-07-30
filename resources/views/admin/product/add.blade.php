@@ -90,13 +90,9 @@
 
 @section('js')
 
-<script src="{{asset('/vendor/laravel-filemanager/js/stand-alone-button.js')}}">
   
-</script>
 
-<script type="text/javascript">
-   $('#lfm').filemanager('image');
-</script>
+
 
 <script src="{{asset('vendor/select2.min.js')}}"></script>
 <script>
